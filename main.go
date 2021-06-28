@@ -6,7 +6,7 @@ import (
 
 //Choices:
 //1. Pure reflection R//Expensive and possibly hard
-//2. Map struct to JSON and operate over the JSON string R// Great and useful but overkill
+//2. Map struct to JSON and operate over the JSON string R// https://github.com/qntfy/kazaam Great and useful but overkill
 //3. Map struct to map -> filter -> map to JSON R// First approach but difficult for nested structures
 //4. Use libs with before behavior:
 // 	 - copier || deepcopier: useful for same structure, but no more complex if required https://github.com/jinzhu/copier
